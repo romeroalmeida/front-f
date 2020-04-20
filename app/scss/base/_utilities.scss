@@ -6,7 +6,23 @@
   justify-content: space-between;
   .content {
     width: calc(100% - 220px);
+    min-height: 100vh;
     padding: 40px;
     background: #fcfcfc;
+  }
+}
+
+button {
+  &.close {
+    background: url(../images/close.svg) no-repeat center;
+    width: 22px;
+    height: 22px;
+    border: 0;
+  }
+  cursor: pointer;
+  outline: none;
+  transition: all ease 0.2s;
+  &:active {
+    opacity: 0.8;
   }
 }
