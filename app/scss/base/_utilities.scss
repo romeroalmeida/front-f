@@ -1,0 +1,12 @@
+// Reusuable classes
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .content {
+    width: calc(100% - 220px);
+    padding: 40px;
+    background: #fcfcfc;
+  }
+}

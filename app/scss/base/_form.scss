@@ -1,0 +1,42 @@
+.main-form {
+  .row {
+    margin-bottom: 20px;
+  }
+  label {
+    font-size: 16px;
+    color: #1a1a1a;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  input {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 1px #f5f5f5;
+    box-sizing: border-box;
+    padding: 0 20px;
+    outline: none;
+    color: #aaaaaa;
+  }
+  button {
+    height: 60px;
+    padding: 0;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: all ease 0.2s;
+    cursor: pointer;
+    &.confirm {
+      background: $confirm;
+    }
+    &.w100 {
+      width: 100%;
+    }
+    &:hover {
+      transform: scale(1.002);
+      box-shadow: 1px 1px 15px rgba($color: #000000, $alpha: 0.2);
+    }
+  }
+}

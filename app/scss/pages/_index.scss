@@ -1,0 +1,10 @@
+#index-page {
+  display: flex;
+  font-family: $primary-font;
+  min-height: 100vh;
+  color: $primary-colour;
+
+  a {
+    text-decoration: none;
+  }
+}
