@@ -60,6 +60,8 @@
   position: relative;
   display: block;
   padding: 13px 15px;
+  padding: 13px 15px 13px 40px;
+  
   color: #1a1a1a;
   outline-width: 0;
   transition: all 0.3s ease-out;
@@ -84,5 +86,12 @@
   .mm-collapse a {
     color: #92af97;
     font-size: 14px;
+    margin-left: 10px;
   }
+}
+
+.metismenu .has-arrow::after{
+  border-width: 2px 0 0 2px;
+  left: 1rem;
+  transform: rotate(-220deg) translate(0,-50%);
 }
