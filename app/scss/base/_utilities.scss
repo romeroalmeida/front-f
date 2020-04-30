@@ -7,7 +7,7 @@
   .content {
     width: calc(100% - 220px);
     min-height: 100vh;
-    padding: 40px;
+    padding: 0 40px 40px 40px;
     background: #fcfcfc;
   }
 }
@@ -18,6 +18,16 @@ button {
     width: 22px;
     height: 22px;
     border: 0;
+    border-radius: 50%;
+  }
+  &.edit {
+    background: url(../images/edit.svg) no-repeat center;
+    width: 22px;
+    height: 22px;
+    border: 0;
+    background-size: 90%;
+    background-color: #3498db;
+    border-radius: 50%;
   }
   cursor: pointer;
   outline: none;

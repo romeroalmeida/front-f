@@ -1,0 +1,29 @@
+.content-historico {
+    margin: 20px 0;
+    &.borda-top {
+      padding-top: 40px;
+      border-top: solid 1px #ebf2ec;
+    }
+    header {
+      margin-bottom: 20px;
+      padding: 0 10px;
+    }
+    .list {
+        max-height: 500px;
+        overflow-y: scroll;
+      .row {
+        background: #fff;
+        border-radius: 10px;
+        padding: 15px 10px;
+        box-sizing: border-box;
+        align-items: center;
+        margin-bottom: 5px;
+        width: 100%;
+        p {
+          font-size: 12px;
+          color: #8f8f8f;
+        }
+      }
+    }
+  }
+  

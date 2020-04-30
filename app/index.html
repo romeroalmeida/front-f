@@ -19,97 +19,97 @@
     <div class="container">
       <!-- Menu -->
       <aside class="main-menu">
-        <div class="logo">
-          <img src="assets/images/logo.png" alt="" />
-        </div>
+      <div class="logo">
+        <img src="assets/images/logo.png" alt="" />
+      </div>
 
-        <nav class="sidebar-nav">
-          <ul class="metismenu" id="menu3">
-            <li>
-              <a class="has-arrow" href="#" aria-expanded="false">
-                Caixa Gerencial
-              </a>
-              <ul class="mm-collapse">
-                <li>
-                  <a href="#">
-                    Histórico
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Plano de Contas
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a class="has-arrow" href="#" aria-expanded="false">
-                Lançamentos
-              </a>
-              <ul class="mm-collapse">
-                <li>
-                  <a href="#">
-                    Movimento Diário
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Razão
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Balancete
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    D.R.E
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Plano de Contas
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Histórico Padrão
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a class="has-arrow" href="#" aria-expanded="false">
-                Locação
-              </a>
-              <ul class="mm-collapse">
-                <li>
-                  <a href="https://github.com/onokumus/metismenujs">
-                    Novo
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="#" aria-expanded="false">
-                Taxa Rodoviaria
-              </a>
-            </li>
-            <li>
-              <a href="#" aria-expanded="false">
-                Guarda Volume
-              </a>
-            </li>
-            <li>
-              <a href="#" aria-expanded="false">
-                Auxiliar
-              </a>
-            </li>
-          </ul>
-        </nav>
+      <nav class="sidebar-nav">
+        <ul class="metismenu" id="menu3">
+          <li>
+            <a class="has-arrow" href="#" aria-expanded="false">
+              Caixa Gerencial
+            </a>
+            <ul class="mm-collapse">
+              <li>
+                <a href="historico.html">
+                  Histórico
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Plano de Contas
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="has-arrow" href="#" aria-expanded="false">
+              Lançamentos
+            </a>
+            <ul class="mm-collapse">
+              <li>
+                <a href="index.html">
+                  Movimento Diário
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Razão
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Balancete
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  D.R.E
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Plano de Contas
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Histórico Padrão
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="has-arrow" href="#" aria-expanded="false">
+              Locação
+            </a>
+            <ul class="mm-collapse">
+              <li>
+                <a href="https://github.com/onokumus/metismenujs">
+                  Novo
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" aria-expanded="false">
+              Taxa Rodoviaria
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-expanded="false">
+              Guarda Volume
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-expanded="false">
+              Auxiliar
+            </a>
+          </li>
+        </ul>
+      </nav>
       </aside>
-      <!-- Fim Menu -->
+    <!-- Fim Menu -->
 
       <!-- Conteudo -->
       <div class="content">
@@ -127,12 +127,19 @@
           <div class="col-xs-12 col-sm-6">
             <form action="" class="main-form">
               <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                  <label for="">Entrada</label>
-                  <input type="text" />
+                <div class="col-xs-12 col-sm-4">
+                  <label for="">Tipo</label>
+                  <select name="" id="">
+                    <option value="entrada">Entrada</option>
+                    <option value="saida">Saída</option>
+                  </select>
                 </div>
-                <div class="col-xs-12 col-sm-6">
-                  <label for="">Data de lançamento</label>
+                <div class="col-xs-12 col-sm-4">
+                  <label for="">Valor</label>
+                  <input type="text" class="money" />
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                  <label for="">Data</label>
                   <input type="date" />
                 </div>
               </div>
@@ -159,7 +166,12 @@
               <div class="row">
                 <div class="col-xs-12 col-sm-4">
                   <label for="">Centro de custo</label>
-                  <input type="text" />
+                  <select name="" id="">
+                    <option value="1">Ozório Serviços</option>
+                    <option value="2">Frosa - Fazenda</option>
+                    <option value="3">Frosa - Rodoviária</option>
+                    <option value="4">Frosa - Imiboliária</option>
+                  </select>
                 </div>
                 <div class="col-xs-12 col-sm-8">
                   <label for="">&nbsp;</label>
@@ -332,6 +344,9 @@
       document.addEventListener("DOMContentLoaded", function (event) {
         new MetisMenu("#menu3");
       });
+      $(document).ready(function(){
+        $('.money').mask('000.000.000.000.000,00', {reverse: true});
+      });
     </script>
-  </body>
+  </body>s
 </html>
